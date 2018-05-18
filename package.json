@@ -1,0 +1,21 @@
+{
+  "name": "example-auth",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.1.6",
+    "cookie": "^0.3.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "js-cookie": "^2.2.0",
+    "next": "^6.0.3",
+    "next-with-apollo": "^2.1.2",
+    "nodemon": "^1.17.4",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
